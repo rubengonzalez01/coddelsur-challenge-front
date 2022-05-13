@@ -1,0 +1,15 @@
+@import "../../styles/_vars.scss";
+
+.video {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  max-height: 169px;
+  overflow: hidden;
+  cursor: pointer;
+
+  img {
+      width: 100%;
+  }   
+}
+

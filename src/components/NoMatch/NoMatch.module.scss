@@ -1,0 +1,21 @@
+@import '../../styles/_vars.scss';
+
+.novideos_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 52px;
+}
+
+.novideos {
+  padding: $space;
+  font-weight: 200;
+  
+  h1 {
+    font-size: $h1;
+    font-weight: 400;
+  }
+
+  ul{
+    padding: $space;
+  }
+}

@@ -1,0 +1,40 @@
+@import "./_vars.scss";
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Proxima";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/proximanova-light.woff2") format("woff");
+}
+@font-face {
+  font-family: "Proxima";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/proxima-nova-400.woff2") format("woff");
+}
+@font-face {
+  font-family: "Proxima";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/proxima-nova-600.woff2") format("woff");
+}
+
+@font-face {
+  font-family: 'Icons';
+  src: url('../assets/fonts/search-icons-v34.woff2') format("woff"),
+}
+
+
+body {
+  background-color: $background;
+  font-family: 'Proxima', sans-serif;
+  font-weight: 200;
+  color: $gray;
+}

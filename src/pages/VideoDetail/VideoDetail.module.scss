@@ -1,0 +1,10 @@
+@import "../../styles/_vars.scss";
+
+.btn_back {
+    display: flex !important;
+    align-items: center;
+}
+
+.btn_back:hover {
+    color: $logoColor !important;
+}
