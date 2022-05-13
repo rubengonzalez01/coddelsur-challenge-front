@@ -24,13 +24,15 @@ Se solicitó realizar los tres componentes mencionados en la intro, donde se pod
 
 ## Solucion
 
-Para el **cliente** de la aplicacion se utilizo ReactJs, junto con ReactRouter para las rutas dinamicas, el estado se manejo casi en su totalidad con el API Context para disponibilizarlo en toda el app, Proptypes para validar algunas props de componentes, y por ultimo SCSS para manejar los estilos.
+Para el **cliente** de la aplicacion se utilizo ReactJs, junto con ReactRouter para las rutas dinamicas, el estado se manejo casi en su totalidad con el API Context para disponibilizarlo en toda el app, Proptypes para validar algunas props de componentes, y por ultimo SCSS, Bootstrap y Material Icons para manejar los estilos e íconos.
 
 * Cliente
   * React
   * ReactRouter
   * Context API
   * SASS
+  * Bootstrap
+  * Material Icons
 
 ## Deploy 🚀
 
