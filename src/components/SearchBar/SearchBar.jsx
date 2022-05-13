@@ -7,6 +7,7 @@ import styles from './SearchBar.module.scss';
 import lupa from '../../assets/img/lupa.svg';
 import logo1024 from '../../assets/img/logo_1024w.png';
 import logo32 from '../../assets/img/logo_32w.png';
+import { Link } from 'react-router-dom';
 
 function SearchBar() {
   const [value, setValue] = useState('');
@@ -23,14 +24,16 @@ function SearchBar() {
     <header className={ styles.header }>
       <div className={ styles.bar }>
         {/* Logo */}
-        <img 
-          className={ styles.logo }
-          srcSet={`${logo32} 32w,
-                  ${logo1024} 1024w`}
-          sizes="(max-width: 600px) 32px,
-                  1024px"
-          src={ logo32 }
-          alt="Logo de codigo del sur"></img>
+        <Link to='/'>
+          <img 
+            className={ styles.logo }
+            srcSet={`${logo32} 32w,
+                    ${logo1024} 1024w`}
+            sizes="(max-width: 600px) 32px,
+                    1024px"
+            src={ logo32 }
+            alt="Logo de codigo del sur"></img>
+        </Link>
               
         {/* Button */}
         <a onClick={ goToHandler } className={ styles.button }>
